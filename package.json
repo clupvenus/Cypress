@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_dashboard":"npx cypress run --record --key 676312af-f3da-48ac-b0ad-02dccd064702",
+    "dashboard_day04":"npx cypress run -spec 'cypress/e2e/day04' --record --key 676312af-f3da-48ac-b0ad-02dccd064702"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.16.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "x-path": "^0.0.2"
+  }
+}
